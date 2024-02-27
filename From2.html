@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body style="background-color: aquamarine;">
+
+  <h4>SELECT TAG:</h4>
+  <label for="country">COUNTRY</label>
+  <select id="country">
+    <option value="" selected disabled>select a country</option>
+    <option value=" INDIA">INDIA</option>
+    <option value="EGYPT">EGYPT</option>
+    <option value="AUSTRALIA">AUSTRALIA</option>
+  </select>
+  <br><br>
+
+
+  <h4>DATALIST TAG EXAMPLE:</h4>
+
+  <label for="COUNT">COUNTRY</label>
+  <input list="LIST_COUNTRY" id="count">
+
+  <datalist id="LIST_COUNTRY">
+    <option value="INDIA">
+    <option value="EGYPT">
+    <option value="AUSTRALIA">
+  </datalist>
+  <br><br>
+
+  <h4>JAVASCRIPT:</h4>
+
+  <form oninput="sum.value=parseInt(a.value)+parseInt(b.value)" style="color: red;">
+    <input type="number" id="a" value="55">
+    <input type="number" id="b" value="5">
+    <output name="sum" for="a b"></output>
+  </form>
+
+</body>
+
+</html>
